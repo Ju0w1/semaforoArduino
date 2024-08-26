@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semaforo {
+  width: 50px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.light {
+  width: 30px;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #555;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+#red-light.off {
+  background-color: #555;
+}
+
+#yellow-light.off {
+  background-color: #555;
+}
+
+#green-light.off {
+  background-color: #555;
+}

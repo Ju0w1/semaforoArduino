@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Introducción a los Sistemas de Control 2024
+  
+  .container
+    .left
+      p
+        label Modo: 
+        label(id="lbl_led_status") ON/OFF     
+      p
+        input(type="button",value="SEMAFORO/MANTENIMIENTO",id="btn_on",class="btn btn-success")
+    //- btn-danger
+    .right
+      .semaforo
+        .light.red(id="red-light")
+        .light.yellow(id="yellow-light")
+        .light.green(id="green-light")
